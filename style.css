@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    margin-bottom: 40px;
+    color:#343536;
+}
+
+#content{
+    margin:50px;
+    position: absolute;
+}
+
+.entry{
+    padding-left: 8px;
+    border: lightgray 1.2px solid;
+    border-radius: 8px;
+    height: 30px;
+    position: relative;
+    width: 100%;
+    color: #343536;
+}
+
+.label{
+    color: #707274;
+    margin-bottom: 8px;
+}
+
+.content-input{
+    margin-bottom: 20px;
+}
+
+#submit{
+    margin-top: 10px;
+    padding: 12px 15px;
+    font-weight: bold;
+    border: lightgray 1.2px solid;
+    border-radius: 8px;
+    background-color: white;
+}
+
+#msg-erro{
+    position: relative;
+    margin-top: 20px;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+#msg-sucesso{
+    position: relative;
+    margin-top: 20px;
+    padding: 10px;
+    text-decoration: underline;
+}
