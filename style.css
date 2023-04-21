@@ -5,6 +5,7 @@
 }
 
 h1{
+    font-size: 16px;
     margin-bottom: 40px;
     color:#23152B;
 }
@@ -28,6 +29,7 @@ h1{
     color: #707274;
     margin-bottom: 8px;
     line-height: 16.1px;
+    font-size: 14px;
 }
 
 .content-input{
