@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Login Netwall</title>
+    <title>Interface Usuário - Netwall</title>
 </head>
 <body>
     <div id="content">
@@ -33,18 +33,24 @@
         $nome = addslashes($_POST['nome']);
         $email = addslashes($_POST['email']);
 
+        //verifica se os campos foram preenchidos
         if(!empty($nome) && !empty($email))
         {
             $u->conectar("netwall","localhost","root","");
             if($u->msgErro == "")
             {
+
+                //se não está no db, insere
                 if ($u->cadastrar($nome, $email)){
                     ?>
                     <div id="msg-sucesso">
                         <p>Cadastrado com sucesso.</p>
                     </div>
                     <?php 
-                } else {
+                } 
+                
+                //mensagem de erro ao cadastrar
+                else {
                     ?>
                     <div id="msg-erro">
                         <p>E-mail já existe.</p>
