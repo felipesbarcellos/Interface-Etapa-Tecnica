@@ -1,12 +1,12 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
 }
 
 h1{
     margin-bottom: 40px;
-    color:#343536;
+    color:#23152B;
 }
 
 #content{
@@ -16,7 +16,7 @@ h1{
 
 .entry{
     padding-left: 8px;
-    border: lightgray 1.2px solid;
+    border: #E0E2E4 1.2px solid;
     border-radius: 8px;
     height: 30px;
     position: relative;
@@ -27,6 +27,7 @@ h1{
 .label{
     color: #707274;
     margin-bottom: 8px;
+    line-height: 16.1px;
 }
 
 .content-input{
@@ -36,8 +37,10 @@ h1{
 #submit{
     margin-top: 10px;
     padding: 12px 15px;
-    font-weight: bold;
-    border: lightgray 1.2px solid;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 115%;
+    border: #E0E2E4 1.2px solid;
     border-radius: 8px;
     background-color: white;
 }
